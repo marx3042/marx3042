@@ -1,0 +1,6 @@
+inputNum1 = float(input())
+inputNum2 = float(input())
+inputNum3 = float(input())
+print("%.3f"%inputNum1)
+print("%.3f"%inputNum2)
+print("%.3f"%inputNum3)

@@ -1,0 +1,11 @@
+# dropna(axis = 0, how = "any", inplace = False) dropna 매개변수 설명
+
+# axis : 축이 0이면 결손 데이터를 포함한 행 삭제, 1이면 결손 데이터 포함한 열 삭제
+# how : 값이 "any"이면 결손 데이터가 하나라도 포함되면 제거 대상, "all"이면 axis인자에 따라 행 or 열 전체의 결손 데이터 삭제
+# inplace : True면 원본데이터 내용 삭제, False면 데이터 프레임만 삭제(기본 값) 원본은 그대로
+
+# 데이터 프레임 합병 concat
+# 저장 변수 =  pd.concat([df1, df2], axis = 0, join = "outer")
+# 한개면 그냥, 두개면 대괄호 사용
+#axis : 0이면 행 기준 1이면 열 기준
+# join : outer은 레이블의 합집합, inner 레이블의 교집합
